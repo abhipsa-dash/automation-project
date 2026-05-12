@@ -1,8 +1,11 @@
 import time 
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 from selenium_pytest.pages.signInPage import signInPage
+from selenium_pytest.pages.homePage import homePage
 import time as thread
 
 def get_url():
@@ -26,4 +29,11 @@ def signIn():
     time.sleep(2)
     sign.click_submit_button()
     time.sleep(2)  # Keep the browser open for a while before closing
+    return driver
+
+def logout(driver):
+    home = homePage(driver)
+    home.click_profile_icon()
+    time.sleep(2)
+    home.click_sign_out_button()
     return driver

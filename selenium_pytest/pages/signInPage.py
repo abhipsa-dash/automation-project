@@ -5,13 +5,19 @@ from selenium.webdriver.support import expected_conditions as EC
 class signInPage:
     def __init__(self, driver):
         self.driver = driver
-        self.email_or_phone_number_box = (By.XPATH, "//input[@type='email']")
-        self.password_box = (By.XPATH, "//input[@type='password']")
+        self.email_or_phone_number_box = (
+            By.CSS_SELECTOR,
+            "input[name='session_key'], input[id='username']"
+        )
+        self.password_box = (
+            By.CSS_SELECTOR,
+            "input[name='session_password'], input[id='password']"
+        )
         self.submit_button = (By.XPATH, "//button[@type='submit']")
 
     def enter_email(self, email="babidash252@gmail.com"):
         email_input = WebDriverWait(self.driver, 20).until(
-            EC.presence_of_element_located(self.email_or_phone_number_box)
+            EC.element_to_be_clickable(self.email_or_phone_number_box)
         )
         email_input.click()
         email_input.clear()
@@ -19,7 +25,7 @@ class signInPage:
 
     def enter_password(self, password="Babi@252dash"):
         password_input = WebDriverWait(self.driver, 20).until(
-            EC.presence_of_element_located(self.password_box)
+            EC.element_to_be_clickable(self.password_box)
         )
         password_input.click()
         password_input.clear()
