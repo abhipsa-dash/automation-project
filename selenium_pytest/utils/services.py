@@ -1,6 +1,7 @@
 import time 
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
@@ -15,9 +16,24 @@ def get_url():
     # navigate directly to LinkedIn login
     driver.get("https://www.linkedin.com/login")
     driver.maximize_window()
-    thread.sleep(5)  # Wait for the page to load
+    login_locators = [
+        (By.CSS_SELECTOR, "input[name='session_key']"),
+        (By.CSS_SELECTOR, "input#username"),
+        (By.CSS_SELECTOR, "input[name='username']"),
+        (By.CSS_SELECTOR, "input[name='email']"),
+        (By.CSS_SELECTOR, "button[type='submit']"),
+    ]
+    try:
+        WebDriverWait(driver, 20).until(
+            lambda d: any(d.find_elements(*locator) for locator in login_locators)
+        )
+    except Exception as exc:
+        print("Login page did not load the expected form fields.")
+        print("Current URL:", driver.current_url)
+        raise
     return driver
 
+# click login
 def signIn():
     driver = get_url()
 
@@ -28,9 +44,20 @@ def signIn():
     sign.enter_password()
     time.sleep(2)
     sign.click_submit_button()
-    time.sleep(2)  # Keep the browser open for a while before closing
+    time.sleep(3)
+    
+    # Wait for home page to load
+    try:
+        WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.XPATH, "//a[contains(@href, '/feed/')]"))
+        )
+    except Exception:
+        pass
+    
+    time.sleep(2)
     return driver
 
+#click logout
 def logout(driver):
     home = homePage(driver)
     home.click_profile_icon()
