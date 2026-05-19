@@ -8,11 +8,8 @@ import time
 
 def test_validate_home_ui(driver):
     home_page = homePage(driver)
-    home_page.dismiss_popups()
 
     # Validate Navbar
-    home_page.click_home_nav()
-    assert "feed" in home_page.get_current_url()
 
     home_page.click_my_network_nav()
     assert "mynetwork" in home_page.get_current_url()

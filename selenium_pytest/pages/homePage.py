@@ -136,12 +136,6 @@ class homePage:
 
     # Navbar methods
 
-    def click_home_nav(self):
-        WebDriverWait(self.driver, 20).until(
-            EC.element_to_be_clickable(("xpath", self.home_nav_xpath))
-        ).click()
-        time.sleep(2)
-
     def click_my_network_nav(self):
         WebDriverWait(self.driver, 20).until(
             EC.element_to_be_clickable(("xpath", self.my_network_nav_xpath))
