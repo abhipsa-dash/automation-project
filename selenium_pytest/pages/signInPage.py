@@ -1,8 +1,11 @@
+import email
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium_pytest.utils.Common import robust_click
+
 
 class signInPage:
     def __init__(self, driver):
@@ -18,14 +21,27 @@ class signInPage:
     
  
     def enter_email(self, email="babidash252@gmail.com"):
-        wait=WebDriverWait(self.driver, 10)
+
         try:
-            email_input = wait.until(EC.element_to_be_clickable(self.email_or_phone_number_box))
-        except:
-            email_input = wait.until(EC.element_to_be_clickable(self.email_or_phone_number_box_alt))
-        email_input.click()
+            email_input = robust_click(
+            self,
+            self.email_or_phone_number_box
+        )
+
+        except Exception:
+            email_input = robust_click(
+            self,
+            self.email_or_phone_number_box_alt
+        )
+
         email_input.clear()
+
+        time.sleep(1)
+
         email_input.send_keys(email)
+
+    print("Email entered successfully")
+       
  
     def enter_password(self, password="Babi@252dash"):
         wait = WebDriverWait(self.driver, 10)

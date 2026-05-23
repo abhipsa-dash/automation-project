@@ -2,6 +2,8 @@ import time
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium_pytest.utils.Common import robust_click
+from selenium.webdriver.common.by import By
 
 """This will contain all details, functions and xpaths related to the homepage"""
 
@@ -39,16 +41,36 @@ class homePage:
     comment_submit_xpath = "//button[contains(@class,'comments-comment-box__submit-button')]"
 
     # Navbar xpaths
-    home_nav_xpath = "//a[@href='https://www.linkedin.com/feed/']"
-    my_network_nav_xpath = "//a[contains(@href,'/mynetwork/')]"
-    jobs_nav_xpath = "//a[contains(@href,'/jobs/')]"
-    messaging_nav_xpath = "//a[contains(@href,'/messaging/')]"
-    notifications_nav_xpath = "//a[contains(@href,'/notifications/')]"
+    home_nav_xpath = "//span[text()='Home']/ancestor::a"
+    my_network_nav_xpath = "//span[text()='My Network']/ancestor::a"
+    jobs_nav_xpath = "//span[text()='Jobs']/ancestor::a"
+    messaging_nav_xpath = "//span[text()='Messaging']/ancestor::a"
+    notifications_nav_xpath = "//span[text()='Notifications']/ancestor::a"
 
     # Me dropdown xpaths 
     me_button_xpath = "//button[contains(@class,'global-nav__primary-link') and .//span[text()='Me']]"
     view_profile_xpath = "//a[contains(@href,'/in/') and contains(.,'View Profile')]"
     settings_xpath = "//a[contains(@href,'/settings/')]"
+
+    def close_message_overlay(self):
+
+        try:
+
+            close_btn = WebDriverWait(self.driver, 5).until(
+                EC.element_to_be_clickable(
+                    (
+                        By.XPATH,
+                        "//button[contains(@aria-label,'Close your conversation')]"
+                    )
+                )
+            )
+
+            close_btn.click()
+
+            time.sleep(2)
+
+        except Exception:
+            pass
  
  
     # Search methods 
@@ -57,6 +79,7 @@ class homePage:
         WebDriverWait(self.driver, 20).until(
             EC.element_to_be_clickable(("xpath", self.search_bar_xpath))
         ).click()
+        robust_click(self, self.search_bar_xpath)
         self.driver.find_element("xpath", self.search_bar_xpath).send_keys("QE Engineer")
         self.driver.find_element("xpath", self.search_bar_xpath).send_keys(Keys.RETURN)
         time.sleep(2)
@@ -137,28 +160,33 @@ class homePage:
     # Navbar methods
 
     def click_my_network_nav(self):
-        WebDriverWait(self.driver, 20).until(
-            EC.element_to_be_clickable(("xpath", self.my_network_nav_xpath))
-        ).click()
-        time.sleep(2)
+        self.dismiss_popups()
+        robust_click(self, ("xpath", self.my_network_nav_xpath)).click()
+        time.sleep(5)
 
     def click_jobs_nav(self):
-        WebDriverWait(self.driver, 20).until(
-            EC.element_to_be_clickable(("xpath", self.jobs_nav_xpath))
-        ).click()
-        time.sleep(2)
+        self.dismiss_popups()
+        robust_click(self, ("xpath", self.jobs_nav_xpath)).click()
+        time.sleep(5)
 
     def click_messaging_nav(self):
-        WebDriverWait(self.driver, 20).until(
-            EC.element_to_be_clickable(("xpath", self.messaging_nav_xpath))
-        ).click()
-        time.sleep(2)
+        self.dismiss_popups()
+        robust_click(
+        self,
+        (By.XPATH, self.messaging_nav_xpath)).click()
+        time.sleep(5)
+        self.close_message_overlay()
 
     def click_notifications_nav(self):
-        WebDriverWait(self.driver, 20).until(
-            EC.element_to_be_clickable(("xpath", self.notifications_nav_xpath))
-        ).click()
-        time.sleep(2)
+        self.dismiss_popups()
+        notification_btn = robust_click(
+        self,
+        (By.XPATH, self.notifications_nav_xpath))
+        self.driver.execute_script(
+        "arguments[0].click();",
+        notification_btn
+        )
+        time.sleep(5)
 
     def get_current_url(self):
         return self.driver.current_url
@@ -166,32 +194,22 @@ class homePage:
     # Me Dropdown methods
 
     def click_me_button(self):
-        WebDriverWait(self.driver, 20).until(
-            EC.element_to_be_clickable(("xpath", self.me_button_xpath))
-        ).click()
+        robust_click(self, ("xpath", self.me_button_xpath)).click()
         time.sleep(1)
 
     def click_view_profile(self):
         self.click_me_button()
-        WebDriverWait(self.driver, 20).until(
-            EC.element_to_be_clickable(("xpath", self.view_profile_xpath))
-        ).click()
+        robust_click(self, ("xpath", self.view_profile_xpath)).click()
         time.sleep(2)
 
     def click_settings(self):
         self.click_me_button()
-        WebDriverWait(self.driver, 20).until(
-            EC.element_to_be_clickable(("xpath", self.settings_xpath))
-        ).click()
+        robust_click(self, ("xpath", self.settings_xpath)).click()
         time.sleep(2)
 
 #logout functions
     def click_profile_icon(self):
-        WebDriverWait(self.driver, 20).until(
-            EC.element_to_be_clickable(("xpath", self.profile_icon_xpath))
-        ).click()
+        robust_click(self, ("xpath", self.profile_icon_xpath)).click()
 
     def click_sign_out_button(self):
-        WebDriverWait(self.driver, 20).until(
-            EC.element_to_be_clickable(("xpath", self.sign_out_button_xpath))
-        ).click()
+        self.robust_click(self.sign_out_button_xpath)

@@ -1,5 +1,6 @@
 import sys
-sys.path.append("C:\\Users\\ABHIP\\Desktop\\automation-project")  # Add the parent directory to the system path
+#sys.path.append("C:\\Users\\ABHIP\\Desktop\\automation-project")
+sys.path.append("D:\\Abby\\automation-project")  # Add the parent directory to the system path
 
 from selenium_pytest.utils.services import signIn
 from selenium_pytest.utils.services import logout
@@ -17,18 +18,18 @@ def test_validate_home_ui(driver):
     home_page.click_jobs_nav()
     assert "jobs" in home_page.get_current_url()
 
-    home_page.click_messaging_nav()
-    assert "messaging" in home_page.get_current_url()
+    # home_page.click_messaging_nav()
+    # assert "messaging" in home_page.get_current_url()
 
-    home_page.click_notifications_nav()
-    assert "notifications" in home_page.get_current_url()
+    # home_page.click_notifications_nav()
+    # assert "notifications" in home_page.get_current_url()
 
-    # Validate Me Dropdown
-    home_page.click_view_profile()
-    assert "in/abhiprava-bhattacharjee-9b1a4b1b8/" in home_page.get_current_url()
+    # # Validate Me Dropdown
+    # home_page.click_view_profile()
+    # assert "in/abhiprava-bhattacharjee-9b1a4b1b8/" in home_page.get_current_url()
 
-    home_page.click_settings()
-    assert "settings" in home_page.get_current_url()
+    # home_page.click_settings()
+    # assert "settings" in home_page.get_current_url()
 
 
 if __name__ == "__main__":

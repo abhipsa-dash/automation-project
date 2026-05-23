@@ -24,7 +24,7 @@ def get_url():
         (By.CSS_SELECTOR, "button[type='submit']"),
     ]
     try:
-        WebDriverWait(driver, 20).until(
+        WebDriverWait(driver, 50).until(
             lambda d: any(d.find_elements(*locator) for locator in login_locators)
         )
     except Exception as exc:
@@ -64,3 +64,5 @@ def logout(driver):
     time.sleep(2)
     home.click_sign_out_button()
     return driver
+
+
