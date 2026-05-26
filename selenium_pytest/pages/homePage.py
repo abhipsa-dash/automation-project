@@ -19,8 +19,8 @@ class homePage:
         time.sleep(1)
 
     # click Logout xpaths
-    profile_icon_xpath = "//li[@class='_100ad682 _9e42b625 d801f263 _6088119d'][6]"
-    sign_out_button_xpath = "//p[text()='Sign out']" 
+    profile_icon_xpath = "//button[@data-view-name='navigation-settings']"
+    sign_out_button_xpath = "//a[normalize-space()='Sign out']" 
 
     search_bar_xpath = "//input[contains(@placeholder,'Search')]"  #search_bar_xpath   
 
