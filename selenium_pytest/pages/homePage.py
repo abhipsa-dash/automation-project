@@ -48,7 +48,7 @@ class homePage:
     notifications_nav_xpath = "//span[text()='Notifications']/ancestor::a"
 
     # Me dropdown xpaths 
-    me_button_xpath = "//button[contains(@class,'global-nav__primary-link') and .//span[text()='Me']]"
+    me_button_xpath = "//button[contains(., 'Me')]"
     view_profile_xpath = "//a[contains(@href,'/in/') and contains(.,'View Profile')]"
     settings_xpath = "//a[contains(@href,'/settings/')]"
 

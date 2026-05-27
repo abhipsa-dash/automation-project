@@ -9,6 +9,7 @@ class ProfilePage:
     def __init__(self, driver):
         self.driver = driver
 
+    menu_icon_xpath = "//button[@aria-label='Me']"
     view_profile_xpath = "//a[normalize-space()='View profile']"
     edit_pencil_icon_xpath = "//*[@id='edit-medium'][1]"
     headline_textbox_xpath = "//*[contains(@class, '_0ce8cd65')]"
@@ -18,6 +19,12 @@ class ProfilePage:
     add_about_button_xpath = "//p[text()='Add about']"
     edit_about_button_xpath = "//div[contains(@class,'_9e20bbe4 _50917d1d ecc023c9 _13974296 _946ca9a4 _7a5af70f _38fdb728')]"
     close_about_button_xpath = "//button[contains(@type,'button')][1]"
+    add_education_button_xpath = "//p[text()='Add education']"
+
+    def click_menu_icon(self):
+        """This will click on the menu icon to open the dropdown menu"""
+        self.driver.find_element_by_xpath(self.menu_icon_xpath).click()
+        WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(("xpath", self.view_profile_xpath)))
 
     def click_view_profile(self):
         """This will click on the profile icon and open the profile page"""
@@ -71,4 +78,7 @@ class ProfilePage:
         self.driver.find_element_by_xpath(self.close_about_button_xpath).click()
         WebDriverWait(self.driver, 10).until(EC.invisibility_of_element_located(("xpath", "//span[text()='Add about']")))
 
-        
+    def click_add_education_button(self):
+        """This will click on the add education button to add education details to the profile"""
+        self.driver.find_element_by_xpath(self.add_education_button_xpath).click()
+        WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(("xpath", "//span[text()='Add education']")))  

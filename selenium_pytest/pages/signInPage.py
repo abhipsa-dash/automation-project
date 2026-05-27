@@ -1,11 +1,11 @@
 import email
 import time
+import traceback
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium_pytest.utils.Common import robust_click
-
+from selenium_pytest.utils.Common import robust_click, get_url
 
 class signInPage:
     def __init__(self, driver):
@@ -27,20 +27,27 @@ class signInPage:
             self,
             self.email_or_phone_number_box
         )
-
-        except Exception:
-            email_input = robust_click(
-            self,
-            self.email_or_phone_number_box_alt
-        )
+        except Exception as e:
+            print(f"enter_email: failed to click primary locator: {e}")
+            traceback.print_exc()
+            # try alternative locator
+            try:
+                get_url().refresh()  # Refresh the page to reset any potential issues
+                email_input = robust_click(
+                    self,
+                    self.email_or_phone_number_box_alt
+                )
+            except Exception as e2:
+                print(f"enter_email: failed to click alternative locator: {e2}")
+                traceback.print_exc()
+                raise
 
         email_input.clear()
 
         time.sleep(1)
 
         email_input.send_keys(email)
-
-    print("Email entered successfully")
+        print("Email entered successfully")
        
  
     def enter_password(self, password="Babi@252dash"):

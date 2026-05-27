@@ -8,30 +8,7 @@ from selenium import webdriver
 from selenium_pytest.pages.signInPage import signInPage
 from selenium_pytest.pages.homePage import homePage
 import time as thread
-
-def get_url():
-    # set up the driver
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-
-    # navigate directly to LinkedIn login
-    driver.get("https://www.linkedin.com/login")
-    driver.maximize_window()
-    login_locators = [
-        (By.CSS_SELECTOR, "input[name='session_key']"),
-        (By.CSS_SELECTOR, "input#username"),
-        (By.CSS_SELECTOR, "input[name='username']"),
-        (By.CSS_SELECTOR, "input[name='email']"),
-        (By.CSS_SELECTOR, "button[type='submit']"),
-    ]
-    try:
-        WebDriverWait(driver, 50).until(
-            lambda d: any(d.find_elements(*locator) for locator in login_locators)
-        )
-    except Exception as exc:
-        print("Login page did not load the expected form fields.")
-        print("Current URL:", driver.current_url)
-        raise
-    return driver
+from selenium_pytest.utils.Common import get_url
 
 # click login
 def signIn():
