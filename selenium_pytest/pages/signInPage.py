@@ -1,3 +1,4 @@
+from asyncio import wait
 import email
 import time
 import traceback
@@ -11,27 +12,29 @@ class signInPage:
     def __init__(self, driver):
         self.driver = driver
         # LinkedIn frequently toggles between these sets of IDs
-        self.email_or_phone_number_box = (By.NAME, "session_key") 
-        self.email_or_phone_number_box_alt = (By.ID, "username")
+        self.email_or_phone_number_box = (By.XPATH, "//input[starts-with(@id, ':r3')]") 
+        self.email_or_phone_number_box_alt = (By.XPATH, "//input[starts-with(@id, ':r6')]")
     
-        self.password_box = (By.ID, "session_password")
-        self.password_box_alt = (By.ID, "password")
+        self.password_box = (By.XPATH, "//input[starts-with(@id, ':r7')]")
+        self.password_box_alt = (By.XPATH, "//input[starts-with(@id, ':r4')]")
     
-        self.submit_button = (By.XPATH, "//button[@type='submit']")
+        self.submit_button = (By.XPATH, "//span[text()='Sign in'][2]")
+        self.submit_button_alt = (By.XPATH, "//span[text()='Sign in'][1]")
     
  
     def enter_email(self, email="babidash252@gmail.com"):
 
         try:
+            print("inside enter_email, trying primary locator")
             email_input = robust_click(
             self,
             self.email_or_phone_number_box
         )
         except Exception as e:
             print(f"enter_email: failed to click primary locator: {e}")
-            traceback.print_exc()
             # try alternative locator
             try:
+                print("Trying alternative locator for email input")
                 get_url().refresh()  # Refresh the page to reset any potential issues
                 email_input = robust_click(
                     self,
@@ -39,7 +42,6 @@ class signInPage:
                 )
             except Exception as e2:
                 print(f"enter_email: failed to click alternative locator: {e2}")
-                traceback.print_exc()
                 raise
 
         email_input.clear()
@@ -53,8 +55,10 @@ class signInPage:
     def enter_password(self, password="Babi@252dash"):
         wait = WebDriverWait(self.driver, 10)
         try:
+            print("inside enter_password, trying primary locator")
             password_input = wait.until(EC.element_to_be_clickable(self.password_box))
-        except:            
+        except:    
+            print("Trying alternative locator for password input")        
             password_input = wait.until(EC.element_to_be_clickable(self.password_box_alt))
             
         password_input.click()
@@ -89,9 +93,13 @@ class signInPage:
         return False
 
     def click_submit_button(self):
-        submit_btn = WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable(self.submit_button)
-        )
+        wait = WebDriverWait(self.driver, 10)
+        try:
+            print("inside click_submit_button, trying primary locator")
+            submit_btn = wait.until(EC.element_to_be_clickable(self.submit_button))
+        except:    
+            print("Trying alternative locator for click_submit_button")        
+            submit_btn = wait.until(EC.element_to_be_clickable(self.submit_button_alt))
         submit_btn.click()
         time.sleep(2)
         self.dismiss_post_login_popup()

@@ -13,8 +13,10 @@ from selenium_pytest.utils.Common import get_url
 # click login
 def signIn():
     driver = get_url()
+    print("Driver initialized")
 
     sign = signInPage(driver)
+    print("Sign-in page initialized")
     time.sleep(2)
     sign.enter_email()
     time.sleep(2)

@@ -11,7 +11,7 @@ import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-def robust_click(page, locator, timeout=50):
+def robust_click(page, locator, timeout=30):
 
     wait = WebDriverWait(page.driver, timeout)
 
@@ -42,14 +42,14 @@ def get_url():
     driver.get("https://www.linkedin.com/login")
     driver.maximize_window()
     login_locators = [
-        (By.CSS_SELECTOR, "input[name='session_key']"),
-        (By.CSS_SELECTOR, "input#username"),
-        (By.CSS_SELECTOR, "input[name='username']"),
-        (By.CSS_SELECTOR, "input[name='email']"),
-        (By.CSS_SELECTOR, "button[type='submit']"),
+        # (By.CSS_SELECTOR, "input[name='session_key']"),
+        # (By.CSS_SELECTOR, "input#username"),
+        # (By.CSS_SELECTOR, "input[name='username']"),    
+        (By.XPATH, "//input[@type='email'][1]"),
+        # (By.CSS_SELECTOR, "button[type='submit']"),
     ]
     try:
-        WebDriverWait(driver, 70).until(
+        WebDriverWait(driver, 30).until(
             lambda d: any(d.find_elements(*locator) for locator in login_locators)
         )
     except Exception as exc:
