@@ -208,8 +208,10 @@ class homePage:
         time.sleep(2)
 
 #logout functions
-    def click_profile_icon(self):
-        robust_click(self, ("xpath", self.profile_icon_xpath)).click()
+    def click_me_button_xpath(self):
+        robust_click(self, ("xpath", self.me_button_xpath)).click()
+        print("clicked me button successfully")
 
     def click_sign_out_button(self):
-        self.robust_click(self.sign_out_button_xpath)
+        robust_click(self, ("xpath", self.sign_out_button_xpath))
+        print("clicked sign out button successfully")

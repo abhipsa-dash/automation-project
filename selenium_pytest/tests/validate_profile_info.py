@@ -1,8 +1,8 @@
 """This will login, go to the homepage, go to profile, and validate all the user personal details"""
 
 import sys
-# sys.path.append("C:\\Users\\ABHIP\\Desktop\\automation-project")
-sys.path.append("D:\\Abby\\automation-project")  # Add the parent directory to the system path
+sys.path.append("C:\\Users\\ABHIP\\Desktop\\automation-project")
+# sys.path.append("D:\\Abby\\automation-project")  # Add the parent directory to the system path
 
 from selenium_pytest.tests.validate_home_ui import test_validate_home_ui
 from selenium_pytest.utils.services import signIn

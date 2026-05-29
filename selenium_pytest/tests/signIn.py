@@ -1,6 +1,6 @@
 import sys
-# sys.path.append("C:\\Users\\ABHIP\\Desktop\\automation-project")  # Add the parent directory to the system path
-sys.path.append("D:\\Abby\\automation-project")
+sys.path.append("C:\\Users\\ABHIP\\Desktop\\automation-project")  # Add the parent directory to the system path
+# sys.path.append("D:\\Abby\\automation-project")
 
 from selenium_pytest.utils.services import signIn
 from selenium_pytest.utils.services import logout

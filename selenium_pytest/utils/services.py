@@ -39,7 +39,7 @@ def signIn():
 #click logout
 def logout(driver):
     home = homePage(driver)
-    home.click_profile_icon()
+    home.click_me_button_xpath()
     time.sleep(2)
     home.click_sign_out_button()
     return driver

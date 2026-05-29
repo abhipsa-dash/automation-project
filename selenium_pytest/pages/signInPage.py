@@ -18,8 +18,8 @@ class signInPage:
         self.password_box = (By.XPATH, "//input[starts-with(@id, ':r7')]")
         self.password_box_alt = (By.XPATH, "//input[starts-with(@id, ':r4')]")
     
-        self.submit_button = (By.XPATH, "//span[text()='Sign in'][2]")
-        self.submit_button_alt = (By.XPATH, "//span[text()='Sign in'][1]")
+        self.submit_button = (By.XPATH, "//span[text()='Forgot password?'][1]/following::button[@type='button'][5]")
+        # self.submit_button_alt = (By.XPATH, "//span[text()='Sign in'][1]")
     
  
     def enter_email(self, email="babidash252@gmail.com"):
@@ -64,6 +64,7 @@ class signInPage:
         password_input.click()
         password_input.clear()
         password_input.send_keys(password)
+        print("Password entered successfully")
 
     def dismiss_post_login_popup(self):
         try:
@@ -93,13 +94,17 @@ class signInPage:
         return False
 
     def click_submit_button(self):
-        wait = WebDriverWait(self.driver, 10)
-        try:
-            print("inside click_submit_button, trying primary locator")
-            submit_btn = wait.until(EC.element_to_be_clickable(self.submit_button))
-        except:    
-            print("Trying alternative locator for click_submit_button")        
-            submit_btn = wait.until(EC.element_to_be_clickable(self.submit_button_alt))
+        # wait = WebDriverWait(self.driver, 10)
+        # try:
+        #     print("inside click_submit_button, trying primary locator")
+        #     submit_btn = wait.until(EC.element_to_be_clickable(self.submit_button))
+        # except:    
+        #     print("Trying alternative locator for click_submit_button")        
+        #     submit_btn = wait.until(EC.element_to_be_clickable(self.submit_button_alt))
+        wait = WebDriverWait(self.driver,10)
+        print("inside click_submit_button")
+        submit_btn = wait.until(EC.element_to_be_clickable(self.submit_button))
         submit_btn.click()
+        print("successfully signed in")
         time.sleep(2)
         self.dismiss_post_login_popup()
