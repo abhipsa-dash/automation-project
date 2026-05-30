@@ -43,9 +43,9 @@ class homePage:
     # Navbar xpaths
     home_nav_xpath = "//span[text()='Home']/ancestor::a"
     my_network_nav_xpath = "//span[text()='My Network']/ancestor::a"
-    jobs_nav_xpath = "//span[text()='Jobs']/ancestor::a"
-    messaging_nav_xpath = "//span[text()='Messaging']/ancestor::a"
-    notifications_nav_xpath = "//span[text()='Notifications']/ancestor::a"
+    jobs_nav_xpath = "//a[@aria-label='Jobs, 0 new notifications']"
+    messaging_nav_xpath = "//a[@aria-label='Messaging, 0 new notifications']"
+    notifications_nav_xpath = "//a[@aria-label='Notifications, 0 new notifications']"
 
     # Me dropdown xpaths 
     me_button_xpath = "//button[contains(., 'Me')]"
