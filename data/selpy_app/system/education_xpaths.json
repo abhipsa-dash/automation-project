@@ -1,0 +1,8 @@
+{
+  "school": "//input[@placeholder='Ex: Boston University']",
+  "degree": "//input[@placeholder='Ex: Bachelor of Science']",
+  "field": "//input[@placeholder='Ex: Business']",
+  "start_year": null,
+  "end_year": null,
+  "save_button": "//button[normalize-space()='Save']"
+}

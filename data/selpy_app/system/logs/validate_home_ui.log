@@ -1,0 +1,169 @@
+2026-05-30 17:11:17,224 | validate_home_ui | INFO | Driver initialized
+2026-05-30 17:11:17,224 | validate_home_ui | INFO | Sign-in page initialized
+2026-05-30 17:11:19,228 | validate_home_ui | DEBUG | inside enter_email, trying primary locator
+2026-05-30 17:11:20,557 | validate_home_ui | INFO | Email entered successfully
+2026-05-30 17:11:22,558 | validate_home_ui | DEBUG | inside enter_password, trying primary locator
+2026-05-30 17:11:32,864 | validate_home_ui | DEBUG | Trying alternative locator for password input
+2026-05-30 17:11:33,141 | validate_home_ui | INFO | Password entered successfully
+2026-05-30 17:11:35,145 | validate_home_ui | DEBUG | inside click_submit_button
+2026-05-30 17:13:58,757 | validate_home_ui | INFO | Driver initialized
+2026-05-30 17:13:58,758 | validate_home_ui | INFO | Sign-in page initialized
+2026-05-30 17:14:00,759 | validate_home_ui | DEBUG | inside enter_email, trying primary locator
+2026-05-30 17:14:02,152 | validate_home_ui | INFO | Email entered successfully
+2026-05-30 17:14:04,157 | validate_home_ui | DEBUG | inside enter_password, trying primary locator
+2026-05-30 17:14:14,448 | validate_home_ui | DEBUG | Trying alternative locator for password input
+2026-05-30 17:14:14,742 | validate_home_ui | INFO | Password entered successfully
+2026-05-30 17:14:16,743 | validate_home_ui | DEBUG | inside click_submit_button
+2026-05-30 17:15:30,244 | validate_home_ui | INFO | clicked me button successfully
+2026-05-30 17:15:38,835 | validate_home_ui | INFO | clicked sign out button successfully
+2026-05-30 17:20:53,803 | validate_home_ui | INFO | Driver initialized
+2026-05-30 17:20:53,803 | validate_home_ui | INFO | Sign-in page initialized
+2026-05-30 17:20:55,809 | validate_home_ui | DEBUG | inside enter_email, trying primary locator
+2026-05-30 17:21:26,306 | validate_home_ui | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 17:21:26,306 | validate_home_ui | DEBUG | Trying alternative locator for email input
+2026-05-30 17:22:02,622 | validate_home_ui | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 17:23:56,035 | validate_home_ui | INFO | Driver initialized
+2026-05-30 17:23:56,035 | validate_home_ui | INFO | Sign-in page initialized
+2026-05-30 17:23:58,036 | validate_home_ui | DEBUG | inside enter_email, trying primary locator
+2026-05-30 17:23:59,304 | validate_home_ui | INFO | Email entered successfully
+2026-05-30 17:24:01,305 | validate_home_ui | DEBUG | inside enter_password, trying primary locator
+2026-05-30 17:24:11,623 | validate_home_ui | DEBUG | Trying alternative locator for password input
+2026-05-30 17:24:11,879 | validate_home_ui | INFO | Password entered successfully
+2026-05-30 17:24:13,880 | validate_home_ui | DEBUG | inside click_submit_button
+2026-05-30 17:25:04,926 | validate_home_ui | INFO | Clicked My Network successfully
+2026-05-30 17:25:15,423 | validate_home_ui | INFO | Clicked Jobs successfully
+2026-05-30 17:26:52,061 | validate_home_ui | INFO | Driver initialized
+2026-05-30 17:26:52,061 | validate_home_ui | INFO | Sign-in page initialized
+2026-05-30 17:26:54,063 | validate_home_ui | DEBUG | inside enter_email, trying primary locator
+2026-05-30 17:27:24,511 | validate_home_ui | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 17:27:24,511 | validate_home_ui | DEBUG | Trying alternative locator for email input
+2026-05-30 17:28:01,940 | validate_home_ui | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 14:40:20,188 | validate_home_ui | INFO | Driver initialized
+2026-05-31 14:40:20,189 | validate_home_ui | INFO | Sign-in page initialized
+2026-05-31 14:40:22,189 | validate_home_ui | DEBUG | inside enter_email, trying primary locator
+2026-05-31 14:40:23,750 | validate_home_ui | INFO | Email entered successfully
+2026-05-31 14:40:25,752 | validate_home_ui | DEBUG | inside enter_password, trying primary locator
+2026-05-31 14:40:36,266 | validate_home_ui | DEBUG | Trying alternative locator for password input
+2026-05-31 14:40:36,473 | validate_home_ui | INFO | Password entered successfully
+2026-05-31 14:40:38,475 | validate_home_ui | DEBUG | inside click_submit_button
+2026-05-31 14:41:16,183 | validate_home_ui | INFO | Clicked My Network successfully
+2026-05-31 14:41:22,439 | validate_home_ui | INFO | Clicked Jobs successfully
+2026-05-31 14:42:36,236 | validate_home_ui | INFO | Driver initialized
+2026-05-31 14:42:36,236 | validate_home_ui | INFO | Sign-in page initialized
+2026-05-31 14:42:38,237 | validate_home_ui | DEBUG | inside enter_email, trying primary locator
+2026-05-31 14:42:39,655 | validate_home_ui | INFO | Email entered successfully
+2026-05-31 14:42:41,656 | validate_home_ui | DEBUG | inside enter_password, trying primary locator
+2026-05-31 14:42:52,037 | validate_home_ui | DEBUG | Trying alternative locator for password input
+2026-05-31 14:42:52,284 | validate_home_ui | INFO | Password entered successfully
+2026-05-31 14:42:54,286 | validate_home_ui | DEBUG | inside click_submit_button
+2026-05-31 14:43:34,866 | validate_home_ui | INFO | Clicked My Network successfully
+2026-05-31 14:43:46,294 | validate_home_ui | INFO | Clicked My messaging successfully
+2026-05-31 14:45:40,016 | validate_home_ui | INFO | Driver initialized
+2026-05-31 14:45:40,016 | validate_home_ui | INFO | Sign-in page initialized
+2026-05-31 14:45:42,018 | validate_home_ui | DEBUG | inside enter_email, trying primary locator
+2026-05-31 14:45:43,398 | validate_home_ui | INFO | Email entered successfully
+2026-05-31 14:45:45,399 | validate_home_ui | DEBUG | inside enter_password, trying primary locator
+2026-05-31 14:45:55,743 | validate_home_ui | DEBUG | Trying alternative locator for password input
+2026-05-31 14:45:55,973 | validate_home_ui | INFO | Password entered successfully
+2026-05-31 14:45:57,974 | validate_home_ui | DEBUG | inside click_submit_button
+2026-05-31 14:46:36,743 | validate_home_ui | INFO | Clicked My Network successfully
+2026-05-31 14:46:51,333 | validate_home_ui | INFO | Clicked My messaging successfully
+2026-05-31 14:47:39,198 | validate_home_ui | INFO | Clicked Notifications successfully
+2026-05-31 14:48:26,238 | validate_home_ui | INFO | Driver initialized
+2026-05-31 14:48:26,239 | validate_home_ui | INFO | Sign-in page initialized
+2026-05-31 14:48:28,239 | validate_home_ui | DEBUG | inside enter_email, trying primary locator
+2026-05-31 14:48:29,669 | validate_home_ui | INFO | Email entered successfully
+2026-05-31 14:48:31,670 | validate_home_ui | DEBUG | inside enter_password, trying primary locator
+2026-05-31 14:48:41,720 | validate_home_ui | DEBUG | Trying alternative locator for password input
+2026-05-31 14:48:41,986 | validate_home_ui | INFO | Password entered successfully
+2026-05-31 14:48:43,988 | validate_home_ui | DEBUG | inside click_submit_button
+2026-05-31 14:49:23,922 | validate_home_ui | INFO | Clicked My Network successfully
+2026-05-31 14:49:36,615 | validate_home_ui | INFO | Clicked My messaging successfully
+2026-05-31 14:50:24,387 | validate_home_ui | INFO | Clicked Notifications successfully
+2026-05-31 14:51:37,486 | validate_home_ui | INFO | Clicked Home successfully
+2026-05-31 14:51:42,661 | validate_home_ui | INFO | clicked me button successfully
+2026-05-31 14:51:44,711 | validate_home_ui | INFO | clicked sign out button successfully

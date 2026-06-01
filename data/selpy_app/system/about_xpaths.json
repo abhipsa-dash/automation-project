@@ -1,0 +1,4 @@
+{
+  "about_textbox": "//div[@data-testid='ui-core-tiptap-text-editor-wrapper']",
+  "save_button": "//button[normalize-space()='Save']"
+}

@@ -1,0 +1,8 @@
+2026-05-30 20:40:44,528 | jobs_debug | INFO | Driver initialized
+2026-05-30 20:40:44,528 | jobs_debug | INFO | Sign-in page initialized
+2026-05-30 20:40:46,530 | jobs_debug | DEBUG | inside enter_email, trying primary locator
+2026-05-30 20:40:48,083 | jobs_debug | INFO | Email entered successfully
+2026-05-30 20:40:50,098 | jobs_debug | DEBUG | inside enter_password, trying primary locator
+2026-05-30 20:41:00,180 | jobs_debug | DEBUG | Trying alternative locator for password input
+2026-05-30 20:41:00,445 | jobs_debug | INFO | Password entered successfully
+2026-05-30 20:41:02,447 | jobs_debug | DEBUG | inside click_submit_button

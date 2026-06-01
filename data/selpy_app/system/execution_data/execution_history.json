@@ -1,0 +1,370 @@
+[
+  {
+    "test_name": "signin_test",
+    "framework": "selenium",
+    "execution_time": 64.27,
+    "status": "passed",
+    "failure_type": null,
+    "timestamp": "2026-05-30T17:07:14.719874"
+  },
+  {
+    "test_name": "validate_home_ui",
+    "framework": "selenium",
+    "execution_time": 17.86,
+    "status": "passed",
+    "failure_type": null,
+    "timestamp": "2026-05-30T17:12:27.053058"
+  },
+  {
+    "test_name": "validate_home_ui",
+    "framework": "selenium",
+    "execution_time": 26.66,
+    "status": "passed",
+    "failure_type": null,
+    "timestamp": "2026-05-30T17:15:20.582675"
+  },
+  {
+    "test_name": "validate_home_ui",
+    "framework": "selenium",
+    "execution_time": 53.85,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T17:25:46.741901"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 30.38,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T17:58:11.530640"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 4.23,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-30T18:00:00.824956"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 3.95,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-30T18:01:46.506840"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 33.35,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T18:15:11.465311"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 18.15,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T18:21:54.305195"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 17.75,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T18:26:13.538937"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 8.62,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-30T19:19:58.936090"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 23.84,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T19:22:04.320934"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 16.96,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T19:33:25.621095"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 9.77,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T19:34:56.844279"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 11.29,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T19:36:26.734124"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 17.88,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T19:43:43.039859"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 24.7,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T19:49:05.091410"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 13.73,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-30T19:57:17.978541"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 29.57,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T19:59:23.559638"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 84.74,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T20:04:19.184538"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 33.03,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T20:09:35.770161"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 86.76,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T20:14:26.186132"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 22.41,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-30T20:17:53.881370"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 41.5,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-30T20:28:15.821612"
+  },
+  {
+    "test_name": "get_jobs",
+    "framework": "selenium",
+    "execution_time": 52.55,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T20:40:27.216907"
+  },
+  {
+    "test_name": "get_jobs",
+    "framework": "selenium",
+    "execution_time": 14.97,
+    "status": "passed",
+    "failure_type": null,
+    "timestamp": "2026-05-30T21:26:59.457817"
+  },
+  {
+    "test_name": "get_jobs",
+    "framework": "selenium",
+    "execution_time": 14.87,
+    "status": "passed",
+    "failure_type": null,
+    "timestamp": "2026-05-30T21:29:09.885793"
+  },
+  {
+    "test_name": "get_jobs",
+    "framework": "selenium",
+    "execution_time": 26.08,
+    "status": "passed",
+    "failure_type": null,
+    "timestamp": "2026-05-30T21:34:56.304370"
+  },
+  {
+    "test_name": "get_jobs",
+    "framework": "selenium",
+    "execution_time": 31.36,
+    "status": "passed",
+    "failure_type": null,
+    "timestamp": "2026-05-30T22:01:01.823880"
+  },
+  {
+    "test_name": "get_jobs",
+    "framework": "selenium",
+    "execution_time": 34.71,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-30T22:08:11.845466"
+  },
+  {
+    "test_name": "get_jobs",
+    "framework": "selenium",
+    "execution_time": 3.41,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-30T22:10:02.269726"
+  },
+  {
+    "test_name": "get_jobs",
+    "framework": "selenium",
+    "execution_time": 27.32,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-30T22:13:45.209281"
+  },
+  {
+    "test_name": "get_jobs",
+    "framework": "selenium",
+    "execution_time": 16.6,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-30T22:15:48.088401"
+  },
+  {
+    "test_name": "get_jobs",
+    "framework": "selenium",
+    "execution_time": 5.42,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-30T22:20:23.503763"
+  },
+  {
+    "test_name": "validate_home_ui",
+    "framework": "selenium",
+    "execution_time": 43.89,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-31T14:41:53.809067"
+  },
+  {
+    "test_name": "validate_home_ui",
+    "framework": "selenium",
+    "execution_time": 49.24,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-31T14:44:17.606628"
+  },
+  {
+    "test_name": "validate_home_ui",
+    "framework": "selenium",
+    "execution_time": 100.15,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-31T14:48:10.334565"
+  },
+  {
+    "test_name": "validate_home_ui",
+    "framework": "selenium",
+    "execution_time": 139.87,
+    "status": "passed",
+    "failure_type": null,
+    "timestamp": "2026-05-31T14:51:37.487964"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 24.66,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-31T14:54:21.301543"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 46.63,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-31T14:58:22.503954"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 47.5,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-31T15:00:52.712931"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 38.63,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-31T15:04:03.522935"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 38.34,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-31T15:05:58.433785"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 69.77,
+    "status": "failed",
+    "failure_type": "locator_failure",
+    "timestamp": "2026-05-31T15:10:11.705410"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 129.3,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-31T15:13:42.346827"
+  },
+  {
+    "test_name": "update_profile_info",
+    "framework": "selenium",
+    "execution_time": 0.0,
+    "status": "failed",
+    "failure_type": "general_failure",
+    "timestamp": "2026-05-31T15:14:38.126027"
+  }
+]

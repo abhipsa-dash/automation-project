@@ -1,0 +1,24 @@
+2026-05-30 16:55:47,740 | signin | INFO | Driver initialized
+2026-05-30 16:55:47,745 | signin | INFO | Sign-in page initialized
+2026-05-30 16:55:49,748 | signin | DEBUG | inside enter_email, trying primary locator
+2026-05-30 16:55:51,518 | signin | INFO | Email entered successfully
+2026-05-30 16:55:53,521 | signin | DEBUG | inside enter_password, trying primary locator
+2026-05-30 16:56:03,530 | signin | DEBUG | Trying alternative locator for password input
+2026-05-30 16:56:03,811 | signin | INFO | Password entered successfully
+2026-05-30 16:56:05,812 | signin | DEBUG | inside click_submit_button
+2026-05-30 16:56:35,721 | signin | INFO | Signed in successfully
+2026-05-30 16:56:41,078 | signin | INFO | clicked me button successfully
+2026-05-30 16:56:43,165 | signin | INFO | clicked sign out button successfully
+2026-05-30 16:56:43,165 | signin | INFO | Logged out successfully
+2026-05-30 17:06:16,557 | signin | INFO | Driver initialized
+2026-05-30 17:06:16,557 | signin | INFO | Sign-in page initialized
+2026-05-30 17:06:18,564 | signin | DEBUG | inside enter_email, trying primary locator
+2026-05-30 17:06:19,842 | signin | INFO | Email entered successfully
+2026-05-30 17:06:21,845 | signin | DEBUG | inside enter_password, trying primary locator
+2026-05-30 17:06:32,227 | signin | DEBUG | Trying alternative locator for password input
+2026-05-30 17:06:32,535 | signin | INFO | Password entered successfully
+2026-05-30 17:06:34,536 | signin | DEBUG | inside click_submit_button
+2026-05-30 17:07:04,828 | signin | INFO | Signed in successfully
+2026-05-30 17:07:10,260 | signin | INFO | clicked me button successfully
+2026-05-30 17:07:12,350 | signin | INFO | clicked sign out button successfully
+2026-05-30 17:07:12,350 | signin | INFO | Logged out successfully

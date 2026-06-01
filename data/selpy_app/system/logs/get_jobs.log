@@ -1,0 +1,226 @@
+2026-05-30 20:38:17,520 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 20:38:18,897 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 20:38:24,573 | get_jobs | INFO | Driver initialized
+2026-05-30 20:38:24,573 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 20:38:26,574 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 20:38:27,888 | get_jobs | INFO | Email entered successfully
+2026-05-30 20:38:29,889 | get_jobs | DEBUG | inside enter_password, trying primary locator
+2026-05-30 20:38:40,210 | get_jobs | DEBUG | Trying alternative locator for password input
+2026-05-30 20:38:40,466 | get_jobs | INFO | Password entered successfully
+2026-05-30 20:38:42,513 | get_jobs | DEBUG | inside click_submit_button
+2026-05-30 20:39:41,729 | get_jobs | INFO | Navigated to Jobs
+2026-05-30 21:25:48,054 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 21:25:49,256 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 21:25:55,000 | get_jobs | INFO | Driver initialized
+2026-05-30 21:25:55,000 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 21:25:57,002 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 21:25:58,327 | get_jobs | INFO | Email entered successfully
+2026-05-30 21:26:00,334 | get_jobs | DEBUG | inside enter_password, trying primary locator
+2026-05-30 21:26:10,672 | get_jobs | DEBUG | Trying alternative locator for password input
+2026-05-30 21:26:10,991 | get_jobs | INFO | Password entered successfully
+2026-05-30 21:26:12,995 | get_jobs | DEBUG | inside click_submit_button
+2026-05-30 21:26:47,573 | get_jobs | INFO | Clicked homepage search bar
+2026-05-30 21:26:59,457 | get_jobs | INFO | Entered title from user.md: QA Automation Engineer
+2026-05-30 21:27:05,337 | get_jobs | INFO | clicked me button successfully
+2026-05-30 21:27:07,701 | get_jobs | INFO | clicked sign out button successfully
+2026-05-30 21:27:44,649 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 21:27:46,048 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 21:27:50,094 | get_jobs | INFO | Driver initialized
+2026-05-30 21:27:50,094 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 21:27:52,098 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 21:27:53,438 | get_jobs | INFO | Email entered successfully
+2026-05-30 21:27:55,439 | get_jobs | DEBUG | inside enter_password, trying primary locator
+2026-05-30 21:28:05,776 | get_jobs | DEBUG | Trying alternative locator for password input
+2026-05-30 21:28:06,086 | get_jobs | INFO | Password entered successfully
+2026-05-30 21:28:08,091 | get_jobs | DEBUG | inside click_submit_button
+2026-05-30 21:28:57,951 | get_jobs | INFO | Clicked homepage search bar
+2026-05-30 21:29:09,885 | get_jobs | INFO | Entered title from user.md: QA Automation Engineer
+2026-05-30 21:29:15,889 | get_jobs | INFO | clicked me button successfully
+2026-05-30 21:29:18,159 | get_jobs | INFO | clicked sign out button successfully
+2026-05-30 21:31:27,242 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 21:31:29,249 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 21:31:38,300 | get_jobs | INFO | Driver initialized
+2026-05-30 21:31:38,300 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 21:31:40,303 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 21:32:10,382 | get_jobs | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 21:32:10,382 | get_jobs | DEBUG | Trying alternative locator for email input
+2026-05-30 21:32:47,977 | get_jobs | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 21:32:56,802 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 21:32:58,455 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 21:33:07,680 | get_jobs | INFO | Driver initialized
+2026-05-30 21:33:07,680 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 21:33:09,685 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 21:33:11,164 | get_jobs | INFO | Email entered successfully
+2026-05-30 21:33:13,166 | get_jobs | DEBUG | inside enter_password, trying primary locator
+2026-05-30 21:33:23,510 | get_jobs | DEBUG | Trying alternative locator for password input
+2026-05-30 21:33:23,731 | get_jobs | INFO | Password entered successfully
+2026-05-30 21:33:25,732 | get_jobs | DEBUG | inside click_submit_button
+2026-05-30 21:34:34,808 | get_jobs | INFO | Clicked homepage search bar
+2026-05-30 21:34:51,302 | get_jobs | INFO | Entered title from user.md: QA Automation Engineer
+2026-05-30 21:35:09,370 | get_jobs | INFO | clicked me button successfully
+2026-05-30 21:35:12,498 | get_jobs | INFO | clicked sign out button successfully
+2026-05-30 21:59:02,901 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 21:59:04,165 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 21:59:15,074 | get_jobs | INFO | Driver initialized
+2026-05-30 21:59:15,074 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 21:59:17,082 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 21:59:18,346 | get_jobs | INFO | Email entered successfully
+2026-05-30 21:59:20,350 | get_jobs | DEBUG | inside enter_password, trying primary locator
+2026-05-30 21:59:30,555 | get_jobs | DEBUG | Trying alternative locator for password input
+2026-05-30 21:59:31,518 | get_jobs | INFO | Password entered successfully
+2026-05-30 21:59:33,526 | get_jobs | DEBUG | inside click_submit_button
+2026-05-30 22:00:39,340 | get_jobs | INFO | Clicked homepage search bar
+2026-05-30 22:00:56,822 | get_jobs | INFO | Entered title from user.md: QA Automation Engineer
+2026-05-30 22:01:12,784 | get_jobs | INFO | clicked me button successfully
+2026-05-30 22:01:15,101 | get_jobs | INFO | clicked sign out button successfully
+2026-05-30 22:06:33,051 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 22:06:35,378 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 22:06:45,999 | get_jobs | INFO | Driver initialized
+2026-05-30 22:06:45,999 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 22:06:48,001 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 22:06:49,267 | get_jobs | INFO | Email entered successfully
+2026-05-30 22:06:51,271 | get_jobs | DEBUG | inside enter_password, trying primary locator
+2026-05-30 22:07:01,683 | get_jobs | DEBUG | Trying alternative locator for password input
+2026-05-30 22:07:01,955 | get_jobs | INFO | Password entered successfully
+2026-05-30 22:07:03,958 | get_jobs | DEBUG | inside click_submit_button
+2026-05-30 22:08:18,285 | get_jobs | INFO | clicked me button successfully
+2026-05-30 22:08:20,725 | get_jobs | INFO | clicked sign out button successfully
+2026-05-30 22:08:33,251 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 22:08:35,086 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 22:08:46,604 | get_jobs | INFO | Driver initialized
+2026-05-30 22:08:46,604 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 22:08:48,606 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 22:08:50,432 | get_jobs | INFO | Email entered successfully
+2026-05-30 22:08:52,434 | get_jobs | DEBUG | inside enter_password, trying primary locator
+2026-05-30 22:09:02,677 | get_jobs | DEBUG | Trying alternative locator for password input
+2026-05-30 22:09:04,474 | get_jobs | INFO | Password entered successfully
+2026-05-30 22:09:06,480 | get_jobs | DEBUG | inside click_submit_button
+2026-05-30 22:10:08,729 | get_jobs | INFO | clicked me button successfully
+2026-05-30 22:10:11,196 | get_jobs | INFO | clicked sign out button successfully
+2026-05-30 22:10:33,588 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 22:10:34,958 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 22:10:44,316 | get_jobs | INFO | Driver initialized
+2026-05-30 22:10:44,316 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 22:10:46,322 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 22:11:16,844 | get_jobs | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 22:11:16,844 | get_jobs | DEBUG | Trying alternative locator for email input
+2026-05-30 22:11:53,289 | get_jobs | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 22:12:14,197 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 22:12:15,773 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 22:12:26,225 | get_jobs | INFO | Driver initialized
+2026-05-30 22:12:26,227 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 22:12:28,227 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 22:12:29,515 | get_jobs | INFO | Email entered successfully
+2026-05-30 22:12:31,517 | get_jobs | DEBUG | inside enter_password, trying primary locator
+2026-05-30 22:12:41,872 | get_jobs | DEBUG | Trying alternative locator for password input
+2026-05-30 22:12:42,133 | get_jobs | INFO | Password entered successfully
+2026-05-30 22:12:44,136 | get_jobs | DEBUG | inside click_submit_button
+2026-05-30 22:13:55,544 | get_jobs | INFO | clicked me button successfully
+2026-05-30 22:13:59,578 | get_jobs | INFO | clicked sign out button successfully
+2026-05-30 22:14:21,056 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 22:14:22,254 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 22:14:34,389 | get_jobs | INFO | Driver initialized
+2026-05-30 22:14:34,390 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 22:14:36,406 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 22:14:38,958 | get_jobs | INFO | Email entered successfully
+2026-05-30 22:14:40,960 | get_jobs | DEBUG | inside enter_password, trying primary locator
+2026-05-30 22:14:51,099 | get_jobs | DEBUG | Trying alternative locator for password input
+2026-05-30 22:14:52,464 | get_jobs | INFO | Password entered successfully
+2026-05-30 22:14:54,466 | get_jobs | DEBUG | inside click_submit_button
+2026-05-30 22:15:36,170 | get_jobs | INFO | Clicked homepage search bar
+2026-05-30 22:15:54,348 | get_jobs | INFO | clicked me button successfully
+2026-05-30 22:15:56,660 | get_jobs | INFO | clicked sign out button successfully
+2026-05-30 22:18:43,008 | get_jobs | INFO | Parsing user.md for job title...
+2026-05-30 22:18:44,803 | get_jobs | INFO | Using title from user.md: 'QA Automation Engineer'
+2026-05-30 22:18:56,504 | get_jobs | INFO | Driver initialized
+2026-05-30 22:18:56,506 | get_jobs | INFO | Sign-in page initialized
+2026-05-30 22:18:58,508 | get_jobs | DEBUG | inside enter_email, trying primary locator
+2026-05-30 22:18:59,969 | get_jobs | INFO | Email entered successfully
+2026-05-30 22:19:01,971 | get_jobs | DEBUG | inside enter_password, trying primary locator
+2026-05-30 22:19:12,446 | get_jobs | DEBUG | Trying alternative locator for password input
+2026-05-30 22:19:12,842 | get_jobs | INFO | Password entered successfully
+2026-05-30 22:19:14,843 | get_jobs | DEBUG | inside click_submit_button

@@ -1,47 +1,55 @@
 import sys
-sys.path.append("C:\\Users\\ABHIP\\Desktop\\automation-project")
-# sys.path.append("D:\\Abby\\automation-project")  # Add the parent directory to the system path
-
-from selenium_pytest.utils.services import signIn
-from selenium_pytest.utils.services import logout
-from selenium_pytest.pages.homePage import homePage
+import os
 import time
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 
-def test_validate_home_ui(driver):
-    home_page = homePage(driver)
+from selenium_pytest.utils.services import signIn, logout
+from selenium_pytest.pages.homePage import homePage
+from selenium_pytest.utils.execution_data import record_execution, get_failure_type
 
-    # Validate Navbar
 
-    home_page.click_my_network_nav()
-    print("Clicked My Network successfully")
-    # assert "mynetwork" in home_page.get_current_url()
+def test_validate_home_ui(driver, logger):
+    start = time.time()
+    try:
+        home_page = homePage(driver)
 
-    # home_page.click_jobs_nav()
-    # print("Clicked Jobs successfully")
-    # assert "jobs" in home_page.get_current_url()
+        home_page.click_my_network_nav()
+        logger.info("Clicked My Network successfully")
 
-    home_page.click_messaging_nav()
-    print("Clicked My messaging successfully")
-    # assert "messaging" in home_page.get_current_url()
+        home_page.click_messaging_nav()
+        logger.info("Clicked My messaging successfully")
 
-    # home_page.click_notifications_nav()
-    # print("Clicked Notifications successfully")
-    # assert "notifications" in home_page.get_current_url()
+        home_page.click_notifications_nav()
+        logger.info("Clicked Notifications successfully")
 
-    # # Validate Me Dropdown
-    # home_page.click_view_profile()
-    # assert "in/abhiprava-bhattacharjee-9b1a4b1b8/" in home_page.get_current_url()
+        home_page.click_home_nav()
+        logger.info("Clicked Home successfully")
 
-    # home_page.click_settings()
-    # assert "settings" in home_page.get_current_url()
+        record_execution(
+            test_name="validate_home_ui",
+            status="passed",
+            execution_time=time.time() - start,
+        )
+    except Exception as e:
+        failure_type = get_failure_type(e)
+        record_execution(
+            test_name="validate_home_ui",
+            status="failed",
+            execution_time=time.time() - start,
+            failure_type=failure_type,
+        )
+        raise
 
 
 if __name__ == "__main__":
-    driver = signIn()
+    from selenium_pytest.utils.logger import AppLogger
+    logger = AppLogger("validate_home_ui").get_logger()
+
+    driver = signIn(logger)
     time.sleep(5)
-    
-    test_validate_home_ui(driver)
-    time.sleep(5)  # Keep the browser open for a while before closing
-    
-    logout(driver)
-    driver.quit()  # Close the browser after use
+
+    test_validate_home_ui(driver, logger)
+    time.sleep(5)
+
+    logout(driver, logger)
+    driver.quit()

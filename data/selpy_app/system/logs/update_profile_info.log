@@ -1,0 +1,1353 @@
+2026-05-30 17:56:34,429 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 17:56:36,418 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-30 17:56:45,825 | update_profile_info | INFO | Driver initialized
+2026-05-30 17:56:45,829 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 17:56:47,829 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 17:56:49,682 | update_profile_info | INFO | Email entered successfully
+2026-05-30 17:56:51,686 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 17:57:01,725 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 17:57:02,778 | update_profile_info | INFO | Password entered successfully
+2026-05-30 17:57:04,780 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 17:57:41,153 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 17:58:11,530 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 17:58:11,867 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 17:58:14,106 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 17:58:56,411 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 17:58:57,839 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-30 17:59:02,963 | update_profile_info | INFO | Driver initialized
+2026-05-30 17:59:02,964 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 17:59:04,967 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 17:59:07,072 | update_profile_info | INFO | Email entered successfully
+2026-05-30 17:59:09,074 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 17:59:19,367 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 17:59:19,721 | update_profile_info | INFO | Password entered successfully
+2026-05-30 17:59:21,723 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 17:59:56,590 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 17:59:59,514 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 18:00:00,824 | update_profile_info | ERROR | update_profile_info failed: Message: element click intercepted: Element <svg xmlns="http://www.w3.org/2000/svg" id="edit-medium" fill="currentColor" aria-hidden="true" data-supported-dps="24x24" viewBox="0 0 24 24" data-token-id="74" width="24" height="24" class="_48e39140 _5c57f7cc _682f0efa e7775bfb _2ba083ec _083d078b" role="img" aria-label="">...</svg> is not clickable at point (952, 314). Other element would receive the click: <span class="_51b683cc _5c268bfc _29189902 _240b43f4 ef323ff6 cd613fa8 _96d0c92d _35785d67 _71e2491f _1e2b81f8 _9159e486 _4c7119fb _94c0b2af _872d175a _844b1a4e a4978bb8 d3220d7d _10d67388 _7ce02139 _1bee68bb e42cad36">...</span>
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda9f3b5]
+	chromedriver!(No symbol) [0x7ff7dda9cfca]
+	chromedriver!(No symbol) [0x7ff7dda9a307]
+	chromedriver!(No symbol) [0x7ff7dda991b7]
+	chromedriver!(No symbol) [0x7ff7dda8bce6]
+	chromedriver!(No symbol) [0x7ff7ddac005a]
+	chromedriver!(No symbol) [0x7ff7dda8b566]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 18:00:01,071 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 18:00:03,169 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 18:00:36,616 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 18:00:38,041 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 18:00:45,290 | update_profile_info | INFO | Driver initialized
+2026-05-30 18:00:45,290 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 18:00:47,292 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 18:00:48,913 | update_profile_info | INFO | Email entered successfully
+2026-05-30 18:00:50,914 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 18:01:01,479 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 18:01:02,224 | update_profile_info | INFO | Password entered successfully
+2026-05-30 18:01:04,227 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 18:01:42,557 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 18:01:46,344 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 18:01:46,503 | update_profile_info | ERROR | update_profile_info failed: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=148.0.7778.179)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda45521]
+	chromedriver!(No symbol) [0x7ff7dda4897f]
+	chromedriver!(No symbol) [0x7ff7ddae5c7d]
+	chromedriver!(No symbol) [0x7ff7ddac005a]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 18:01:46,821 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 18:01:48,971 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 18:02:12,064 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 18:02:13,446 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 18:02:20,026 | update_profile_info | INFO | Driver initialized
+2026-05-30 18:02:20,028 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 18:02:22,030 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 18:02:52,396 | update_profile_info | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 18:02:52,398 | update_profile_info | DEBUG | Trying alternative locator for email input
+2026-05-30 18:03:33,285 | update_profile_info | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 18:13:39,674 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 18:13:42,577 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-30 18:13:46,407 | update_profile_info | INFO | Driver initialized
+2026-05-30 18:13:46,407 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 18:13:48,411 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 18:13:49,789 | update_profile_info | INFO | Email entered successfully
+2026-05-30 18:13:51,790 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 18:14:02,302 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 18:14:02,696 | update_profile_info | INFO | Password entered successfully
+2026-05-30 18:14:04,700 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 18:14:38,112 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 18:14:41,039 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 18:15:11,465 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 18:15:11,694 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 18:15:13,772 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 18:20:39,103 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 18:20:40,361 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 18:20:44,335 | update_profile_info | INFO | Driver initialized
+2026-05-30 18:20:44,335 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 18:20:46,339 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 18:20:47,691 | update_profile_info | INFO | Email entered successfully
+2026-05-30 18:20:49,692 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 18:21:00,180 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 18:21:00,479 | update_profile_info | INFO | Password entered successfully
+2026-05-30 18:21:02,481 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 18:21:36,152 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 18:21:39,015 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 18:21:54,305 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 18:25:00,376 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 18:25:01,565 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-30 18:25:06,422 | update_profile_info | INFO | Driver initialized
+2026-05-30 18:25:06,422 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 18:25:08,423 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 18:25:09,647 | update_profile_info | INFO | Email entered successfully
+2026-05-30 18:25:11,648 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 18:25:21,679 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 18:25:21,960 | update_profile_info | INFO | Password entered successfully
+2026-05-30 18:25:23,961 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 18:25:55,785 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 18:25:58,700 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 18:26:03,017 | update_profile_info | INFO | Headline updated
+2026-05-30 18:26:03,017 | update_profile_info | INFO | Updating About section
+2026-05-30 18:26:13,536 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 18:26:14,853 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 18:26:16,951 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 19:18:50,584 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 19:18:51,579 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 19:18:55,400 | update_profile_info | INFO | Driver initialized
+2026-05-30 19:18:55,400 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 19:18:57,403 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 19:18:58,692 | update_profile_info | INFO | Email entered successfully
+2026-05-30 19:19:00,693 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 19:19:11,162 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 19:19:11,450 | update_profile_info | INFO | Password entered successfully
+2026-05-30 19:19:13,454 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 19:19:50,314 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 19:19:53,582 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 19:19:57,705 | update_profile_info | INFO | Headline updated
+2026-05-30 19:19:57,705 | update_profile_info | INFO | Updating About section
+2026-05-30 19:19:58,936 | update_profile_info | ERROR | update_profile_info failed: Message: element click intercepted: Element <a class="_7aea64d4 d3fbc9fa ef323ff6 cd613fa8 _0ed2c049 _1e2b81f8 _9159e486 be05801c _9f635d5e a00542c8 _96d0c92d _240b43f4 _72b1cfcb" aria-disabled="false" href="https://www.linkedin.com/in/babi-dash-530a89282/edit/forms/summary/new/" componentkey="f1582c40-45cf-464d-946f-be7f1392379b" aria-label="Edit about">...</a> is not clickable at point (952, 700). Other element would receive the click: <dialog class="f0233110 _71d70acf b7bd4aae b0ba38c8 b35907b3 _72d55aba d572178c _6243cdd1 ef323ff6 _0ed2c049 c8cf3bac _23810f52 _0350cd8a _1ffe0194 _35e0aeb3 _9cdf20b4 fa70fba3 _213c7498 _7d8d5871" data-testid="dialog" aria-labelledby="dialog-header" open="">...</dialog>
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda9f3b5]
+	chromedriver!(No symbol) [0x7ff7dda9cfca]
+	chromedriver!(No symbol) [0x7ff7dda9a307]
+	chromedriver!(No symbol) [0x7ff7dda991b7]
+	chromedriver!(No symbol) [0x7ff7dda8bce6]
+	chromedriver!(No symbol) [0x7ff7ddac005a]
+	chromedriver!(No symbol) [0x7ff7dda8b566]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 19:20:00,247 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 19:20:02,327 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 19:20:30,985 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 19:20:32,095 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-30 19:20:36,754 | update_profile_info | INFO | Driver initialized
+2026-05-30 19:20:36,754 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 19:20:38,754 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 19:20:39,967 | update_profile_info | INFO | Email entered successfully
+2026-05-30 19:20:41,969 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 19:20:52,298 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 19:20:52,408 | update_profile_info | INFO | Password entered successfully
+2026-05-30 19:20:54,409 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 19:21:40,476 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 19:21:43,166 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 19:21:47,900 | update_profile_info | INFO | Headline updated
+2026-05-30 19:21:47,900 | update_profile_info | INFO | Updating About section
+2026-05-30 19:22:04,315 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 19:22:05,596 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 19:22:07,631 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 19:27:06,194 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 19:27:07,132 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 19:27:10,793 | update_profile_info | INFO | Driver initialized
+2026-05-30 19:27:10,794 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 19:27:12,795 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 19:27:43,128 | update_profile_info | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 19:27:43,129 | update_profile_info | DEBUG | Trying alternative locator for email input
+2026-05-30 19:28:18,703 | update_profile_info | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 19:32:15,028 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 19:32:16,139 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 19:32:19,959 | update_profile_info | INFO | Driver initialized
+2026-05-30 19:32:19,965 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 19:32:21,966 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 19:32:23,336 | update_profile_info | INFO | Email entered successfully
+2026-05-30 19:32:25,337 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 19:32:35,378 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 19:32:35,740 | update_profile_info | INFO | Password entered successfully
+2026-05-30 19:32:37,744 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 19:33:08,659 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 19:33:11,593 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 19:33:23,886 | update_profile_info | INFO | Headline updated
+2026-05-30 19:33:23,886 | update_profile_info | INFO | Updating About section
+2026-05-30 19:33:25,620 | update_profile_info | ERROR | update_profile_info failed: Message: element not interactable
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d396]
+	chromedriver!(No symbol) [0x7ff7dda925d9]
+	chromedriver!(No symbol) [0x7ff7dda90231]
+	chromedriver!(No symbol) [0x7ff7ddac005a]
+	chromedriver!(No symbol) [0x7ff7dda8b566]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 19:33:26,902 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 19:33:28,967 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 19:33:52,399 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 19:33:53,470 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-30 19:33:57,654 | update_profile_info | INFO | Driver initialized
+2026-05-30 19:33:57,654 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 19:33:59,657 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 19:34:01,286 | update_profile_info | INFO | Email entered successfully
+2026-05-30 19:34:03,286 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 19:34:13,602 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 19:34:13,957 | update_profile_info | INFO | Password entered successfully
+2026-05-30 19:34:15,961 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 19:34:47,070 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 19:34:49,907 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 19:34:55,210 | update_profile_info | INFO | Headline updated
+2026-05-30 19:34:55,210 | update_profile_info | INFO | Updating About section
+2026-05-30 19:34:56,839 | update_profile_info | ERROR | update_profile_info failed: Message: element not interactable
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d396]
+	chromedriver!(No symbol) [0x7ff7dda925d9]
+	chromedriver!(No symbol) [0x7ff7dda90231]
+	chromedriver!(No symbol) [0x7ff7ddac005a]
+	chromedriver!(No symbol) [0x7ff7dda8b566]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 19:34:58,119 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 19:35:00,213 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 19:35:19,574 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 19:35:21,204 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Selenium WebDriver', 'TestNG', 'JUnit', 'Cucumber (BDD)', 'Maven', 'Playwright (Web)', 'Espresso (Android)', 'XCUITest (iOS)', 'Appium', 'Selenium', 'Cypress', 'Test Case Design', 'Bug Identification', 'Bug Reporting', 'Mobile Manual Testing(IOS&Android)', 'Java', 'Python', 'SQL', 'Pytest', 'Postman', 'REST API', 'ChatGPT', 'Claude', 'GitHub Copilot', 'AI Agents for Test Generation & Debugging', 'JIRA', 'Git', 'GitHub', 'IntelliJ IDEA', 'Pipeline Optimization', 'Tableau', 'PowerBI'], education entries: 2, projects: 2
+2026-05-30 19:35:24,929 | update_profile_info | INFO | Driver initialized
+2026-05-30 19:35:24,934 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 19:35:26,934 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 19:35:28,295 | update_profile_info | INFO | Email entered successfully
+2026-05-30 19:35:30,295 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 19:35:40,774 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 19:35:41,179 | update_profile_info | INFO | Password entered successfully
+2026-05-30 19:35:43,181 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 19:36:15,445 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 19:36:19,741 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 19:36:25,304 | update_profile_info | INFO | Headline updated
+2026-05-30 19:36:25,304 | update_profile_info | INFO | Updating About section
+2026-05-30 19:36:26,734 | update_profile_info | ERROR | update_profile_info failed: Message: element not interactable
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d396]
+	chromedriver!(No symbol) [0x7ff7dda925d9]
+	chromedriver!(No symbol) [0x7ff7dda90231]
+	chromedriver!(No symbol) [0x7ff7ddac005a]
+	chromedriver!(No symbol) [0x7ff7dda8b566]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 19:36:28,009 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 19:36:30,107 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 19:42:27,034 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 19:42:28,072 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 19:42:31,951 | update_profile_info | INFO | Driver initialized
+2026-05-30 19:42:31,951 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 19:42:33,952 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 19:42:35,275 | update_profile_info | INFO | Email entered successfully
+2026-05-30 19:42:37,277 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 19:42:47,307 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 19:42:47,571 | update_profile_info | INFO | Password entered successfully
+2026-05-30 19:42:49,571 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 19:43:25,162 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 19:43:30,177 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 19:43:35,394 | update_profile_info | INFO | Headline updated
+2026-05-30 19:43:35,394 | update_profile_info | INFO | Updating About section
+2026-05-30 19:43:43,037 | update_profile_info | ERROR | update_profile_info failed: Message: element not interactable
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d396]
+	chromedriver!(No symbol) [0x7ff7dda925d9]
+	chromedriver!(No symbol) [0x7ff7dda90231]
+	chromedriver!(No symbol) [0x7ff7ddac005a]
+	chromedriver!(No symbol) [0x7ff7dda8b566]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 19:43:44,346 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 19:43:46,417 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 19:47:44,747 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 19:47:45,897 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 19:47:49,539 | update_profile_info | INFO | Driver initialized
+2026-05-30 19:47:49,539 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 19:47:51,541 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 19:47:52,866 | update_profile_info | INFO | Email entered successfully
+2026-05-30 19:47:54,868 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 19:48:05,396 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 19:48:05,947 | update_profile_info | INFO | Password entered successfully
+2026-05-30 19:48:07,948 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 19:48:40,389 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 19:48:43,459 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 19:48:48,630 | update_profile_info | INFO | Headline updated
+2026-05-30 19:48:48,630 | update_profile_info | INFO | Adding education: Institute of Technical Education and Research
+2026-05-30 19:49:05,091 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 19:49:06,440 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 19:49:08,500 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 19:56:09,856 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 19:56:10,862 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 19:56:14,463 | update_profile_info | INFO | Driver initialized
+2026-05-30 19:56:14,463 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 19:56:16,467 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 19:56:17,730 | update_profile_info | INFO | Email entered successfully
+2026-05-30 19:56:19,731 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 19:56:30,216 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 19:56:30,463 | update_profile_info | INFO | Password entered successfully
+2026-05-30 19:56:32,465 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 19:57:04,251 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 19:57:07,232 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 19:57:12,659 | update_profile_info | INFO | Headline updated
+2026-05-30 19:57:12,659 | update_profile_info | INFO | Adding education: Institute of Technical Education and Research
+2026-05-30 19:57:17,978 | update_profile_info | ERROR | update_profile_info failed: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.1-8b-instant` in organization `org_01kswd7xdffhptapctgay9swh3` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 9762, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-30 19:57:19,316 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 19:57:21,400 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 19:57:58,155 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 19:57:59,204 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-30 19:58:03,784 | update_profile_info | INFO | Driver initialized
+2026-05-30 19:58:03,784 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 19:58:05,785 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 19:58:07,120 | update_profile_info | INFO | Email entered successfully
+2026-05-30 19:58:09,121 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 19:58:19,490 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 19:58:19,814 | update_profile_info | INFO | Password entered successfully
+2026-05-30 19:58:21,816 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 19:58:53,983 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 19:58:57,292 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 19:59:02,514 | update_profile_info | INFO | Headline updated
+2026-05-30 19:59:02,514 | update_profile_info | INFO | Adding education: Institute of Technical Education and Research
+2026-05-30 19:59:23,556 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 19:59:24,857 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 19:59:26,939 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 20:01:57,929 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 20:01:59,327 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 20:02:03,540 | update_profile_info | INFO | Driver initialized
+2026-05-30 20:02:03,540 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 20:02:05,541 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 20:02:06,872 | update_profile_info | INFO | Email entered successfully
+2026-05-30 20:02:08,879 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 20:02:19,258 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 20:02:19,546 | update_profile_info | INFO | Password entered successfully
+2026-05-30 20:02:21,550 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 20:02:54,437 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 20:03:03,255 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 20:03:12,026 | update_profile_info | INFO | Headline updated
+2026-05-30 20:03:12,026 | update_profile_info | INFO | Adding education: Institute of Technical Education and Research
+2026-05-30 20:04:19,180 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 20:04:20,964 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 20:04:23,371 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 20:07:47,423 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 20:07:49,616 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-30 20:07:54,914 | update_profile_info | INFO | Driver initialized
+2026-05-30 20:07:54,914 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 20:07:56,916 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 20:07:58,150 | update_profile_info | INFO | Email entered successfully
+2026-05-30 20:08:00,154 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 20:08:10,388 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 20:08:10,575 | update_profile_info | INFO | Password entered successfully
+2026-05-30 20:08:12,580 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 20:09:02,740 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 20:09:07,369 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 20:09:13,494 | update_profile_info | INFO | Headline updated
+2026-05-30 20:09:13,494 | update_profile_info | INFO | Adding education: Institute of Technical Education and Research
+2026-05-30 20:09:35,766 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 20:09:37,060 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 20:09:39,176 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 20:11:55,319 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 20:11:56,628 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 20:12:02,067 | update_profile_info | INFO | Driver initialized
+2026-05-30 20:12:02,067 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 20:12:04,069 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 20:12:05,341 | update_profile_info | INFO | Email entered successfully
+2026-05-30 20:12:07,342 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 20:12:17,687 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 20:12:17,948 | update_profile_info | INFO | Password entered successfully
+2026-05-30 20:12:19,950 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 20:12:59,426 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 20:13:58,589 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 20:14:07,307 | update_profile_info | INFO | Headline updated
+2026-05-30 20:14:07,307 | update_profile_info | INFO | Updating About section
+2026-05-30 20:14:26,181 | update_profile_info | ERROR | update_profile_info failed: Message: element not interactable
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d396]
+	chromedriver!(No symbol) [0x7ff7dda925d9]
+	chromedriver!(No symbol) [0x7ff7dda90231]
+	chromedriver!(No symbol) [0x7ff7ddac005a]
+	chromedriver!(No symbol) [0x7ff7dda8b566]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 20:14:27,830 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 20:14:30,058 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 20:16:32,267 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 20:16:33,493 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 20:16:38,667 | update_profile_info | INFO | Driver initialized
+2026-05-30 20:16:38,667 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 20:16:40,668 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 20:16:41,902 | update_profile_info | INFO | Email entered successfully
+2026-05-30 20:16:43,906 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 20:16:54,206 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 20:16:54,500 | update_profile_info | INFO | Password entered successfully
+2026-05-30 20:16:56,502 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 20:17:31,469 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 20:17:35,209 | update_profile_info | INFO | Updating About section
+2026-05-30 20:17:46,770 | update_profile_info | INFO | About updated
+2026-05-30 20:17:46,770 | update_profile_info | INFO | Adding education: Institute of Technical Education and Research
+2026-05-30 20:17:53,881 | update_profile_info | ERROR | update_profile_info failed: Message: element click intercepted: Element <input class="_514071f2 aaea47c2 _5aed31c7 _30bb75cb _0098f4c7 _59f386b5 _3bd38284 e2aa9bd4 f0bbb624 a6fb8974 _98eda776 _4b3fce41 _6ad9dcb2 _1357b6cd _66dee127 c450c2dc _668e1a9e c3a4baa6 _99d82444 f235db5a ff19382d e89d48c7 c0f777f6 _194d8901 _26a67108 ce7df343 e4d6c55e" id=":r9:" data-testid="typeahead-input" autocomplete="off" dir="auto" aria-autocomplete="list" placeholder="Ex: Bachelor of Science" componentkey="auto-component-565c9846-40af-4f60-8c68-4e1cb4968993" aria-label="Degree" value=""> is not clickable at point (760, 390). Other element would receive the click: <p class="_6bc9d9b3 e23a0627 _0543d9f0 _19013e3b _3bd38284 e2aa9bd4 ef374193 _30bb75cb _2bf0f7be c073e094">...</p>
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda9f3b5]
+	chromedriver!(No symbol) [0x7ff7dda9cfca]
+	chromedriver!(No symbol) [0x7ff7dda9a307]
+	chromedriver!(No symbol) [0x7ff7dda991b7]
+	chromedriver!(No symbol) [0x7ff7dda8bce6]
+	chromedriver!(No symbol) [0x7ff7ddac005a]
+	chromedriver!(No symbol) [0x7ff7dda8b566]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 20:18:39,348 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 20:18:41,027 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Selenium WebDriver', 'TestNG', 'JUnit', 'Cucumber (BDD)', 'Maven', 'Playwright (Web)', 'Espresso (Android)', 'XCUITest (iOS)', 'Appium', 'Selenium', 'Cypress', 'Test Case Design', 'Bug Identification', 'Bug Reporting', 'Mobile Manual Testing(IOS&Android)', 'Java', 'Python', 'SQL', 'Pytest', 'Postman', 'REST API', 'ChatGPT', 'Claude', 'GitHub Copilot', 'AI Agents for Test Generation & Debugging', 'JIRA', 'Git', 'GitHub', 'IntelliJ IDEA', 'Pipeline Optimization', 'Tableau', 'PowerBI'], education entries: 2, projects: 2
+2026-05-30 20:18:45,442 | update_profile_info | INFO | Driver initialized
+2026-05-30 20:18:45,442 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 20:18:47,446 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 20:19:17,512 | update_profile_info | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 20:19:17,512 | update_profile_info | DEBUG | Trying alternative locator for email input
+2026-05-30 20:19:54,172 | update_profile_info | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 20:26:28,379 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 20:26:29,780 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-30 20:26:35,208 | update_profile_info | INFO | Driver initialized
+2026-05-30 20:26:35,208 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 20:26:37,209 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 20:26:38,523 | update_profile_info | INFO | Email entered successfully
+2026-05-30 20:26:40,528 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-30 20:26:50,925 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-30 20:26:51,182 | update_profile_info | INFO | Password entered successfully
+2026-05-30 20:26:53,182 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-30 20:27:34,324 | update_profile_info | INFO | Navigating to profile page
+2026-05-30 20:27:39,564 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-30 20:27:48,133 | update_profile_info | INFO | Headline updated
+2026-05-30 20:27:48,133 | update_profile_info | INFO | Updating About section
+2026-05-30 20:28:04,567 | update_profile_info | INFO | About updated
+2026-05-30 20:28:04,568 | update_profile_info | INFO | Adding education: Institute of Technical Education and Research
+2026-05-30 20:28:15,821 | update_profile_info | ERROR | update_profile_info failed: Message: element click intercepted: Element <input class="_514071f2 aaea47c2 _5aed31c7 _30bb75cb _0098f4c7 _59f386b5 _3bd38284 e2aa9bd4 f0bbb624 a6fb8974 _98eda776 _4b3fce41 _6ad9dcb2 _1357b6cd _66dee127 c450c2dc _668e1a9e c3a4baa6 _99d82444 f235db5a ff19382d e89d48c7 c0f777f6 _194d8901 _26a67108 ce7df343 e4d6c55e" id=":r9:" data-testid="typeahead-input" autocomplete="off" dir="auto" aria-autocomplete="list" placeholder="Ex: Bachelor of Science" componentkey="auto-component-c7f5deea-69b3-4e26-9637-588611ee3577" aria-label="Degree" value=""> is not clickable at point (760, 390). Other element would receive the click: <dialog class="f0233110 _71d70acf b7bd4aae b0ba38c8 b35907b3 _72d55aba d572178c _6243cdd1 ef323ff6 _0ed2c049 c8cf3bac _23810f52 _0350cd8a _07a7830d _35e0aeb3 _9cdf20b4 fa70fba3 _213c7498 e72569ba" data-testid="dialog" open="">...</dialog>
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda9f3b5]
+	chromedriver!(No symbol) [0x7ff7dda9cfca]
+	chromedriver!(No symbol) [0x7ff7dda9a307]
+	chromedriver!(No symbol) [0x7ff7dda991b7]
+	chromedriver!(No symbol) [0x7ff7dda8bce6]
+	chromedriver!(No symbol) [0x7ff7ddac005a]
+	chromedriver!(No symbol) [0x7ff7dda8b566]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 20:28:22,440 | update_profile_info | INFO | clicked me button successfully
+2026-05-30 20:28:24,814 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-30 20:28:58,090 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-30 20:28:59,376 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-30 20:29:03,601 | update_profile_info | INFO | Driver initialized
+2026-05-30 20:29:03,601 | update_profile_info | INFO | Sign-in page initialized
+2026-05-30 20:29:05,603 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-30 20:29:35,753 | update_profile_info | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 20:29:35,753 | update_profile_info | DEBUG | Trying alternative locator for email input
+2026-05-30 20:30:12,858 | update_profile_info | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 14:53:00,479 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-31 14:53:01,786 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-31 14:53:07,023 | update_profile_info | INFO | Driver initialized
+2026-05-31 14:53:07,024 | update_profile_info | INFO | Sign-in page initialized
+2026-05-31 14:53:09,025 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-31 14:53:10,298 | update_profile_info | INFO | Email entered successfully
+2026-05-31 14:53:12,298 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-31 14:53:22,797 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-31 14:53:23,089 | update_profile_info | INFO | Password entered successfully
+2026-05-31 14:53:25,091 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-31 14:53:56,636 | update_profile_info | INFO | Navigating to profile page
+2026-05-31 14:54:00,244 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-31 14:54:06,214 | update_profile_info | INFO | Headline updated
+2026-05-31 14:54:06,214 | update_profile_info | INFO | Updating About section
+2026-05-31 14:54:14,526 | update_profile_info | INFO | About updated
+2026-05-31 14:54:14,526 | update_profile_info | INFO | Adding education: Institute of Technical Education and Research
+2026-05-31 14:54:21,300 | update_profile_info | ERROR | update_profile_info failed: Message: element not interactable
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad396]
+	chromedriver!(No symbol) [0x7ff7d15025d9]
+	chromedriver!(No symbol) [0x7ff7d1500231]
+	chromedriver!(No symbol) [0x7ff7d153005a]
+	chromedriver!(No symbol) [0x7ff7d14fb566]
+	chromedriver!(No symbol) [0x7ff7d155486f]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 14:54:25,668 | update_profile_info | INFO | clicked me button successfully
+2026-05-31 14:54:27,785 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-31 14:55:10,151 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-31 14:55:11,408 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-31 14:55:15,839 | update_profile_info | INFO | Driver initialized
+2026-05-31 14:55:15,840 | update_profile_info | INFO | Sign-in page initialized
+2026-05-31 14:55:17,841 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-31 14:55:47,986 | update_profile_info | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad5ad]
+	chromedriver!(No symbol) [0x7ff7d1507822]
+	chromedriver!(No symbol) [0x7ff7d1507b2c]
+	chromedriver!(No symbol) [0x7ff7d1557d17]
+	chromedriver!(No symbol) [0x7ff7d155486f]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 14:55:47,986 | update_profile_info | DEBUG | Trying alternative locator for email input
+2026-05-31 14:56:25,981 | update_profile_info | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad5ad]
+	chromedriver!(No symbol) [0x7ff7d1507822]
+	chromedriver!(No symbol) [0x7ff7d1507b2c]
+	chromedriver!(No symbol) [0x7ff7d1557d17]
+	chromedriver!(No symbol) [0x7ff7d155486f]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 14:56:36,531 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-31 14:56:38,558 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-31 14:56:44,733 | update_profile_info | INFO | Driver initialized
+2026-05-31 14:56:44,733 | update_profile_info | INFO | Sign-in page initialized
+2026-05-31 14:56:46,734 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-31 14:56:48,098 | update_profile_info | INFO | Email entered successfully
+2026-05-31 14:56:50,099 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-31 14:57:00,497 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-31 14:57:00,833 | update_profile_info | INFO | Password entered successfully
+2026-05-31 14:57:02,835 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-31 14:57:35,875 | update_profile_info | INFO | Navigating to profile page
+2026-05-31 14:57:39,038 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-31 14:57:44,049 | update_profile_info | INFO | Headline updated
+2026-05-31 14:57:44,050 | update_profile_info | INFO | Updating About section
+2026-05-31 14:57:52,430 | update_profile_info | INFO | About updated
+2026-05-31 14:57:52,430 | update_profile_info | INFO | Adding skill: Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.
+2026-05-31 14:58:22,498 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad5ad]
+	chromedriver!(No symbol) [0x7ff7d1507822]
+	chromedriver!(No symbol) [0x7ff7d1507b2c]
+	chromedriver!(No symbol) [0x7ff7d1557d17]
+	chromedriver!(No symbol) [0x7ff7d155486f]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 14:58:27,867 | update_profile_info | INFO | clicked me button successfully
+2026-05-31 14:58:30,002 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-31 14:59:07,794 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-31 14:59:08,975 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-31 14:59:13,028 | update_profile_info | INFO | Driver initialized
+2026-05-31 14:59:13,029 | update_profile_info | INFO | Sign-in page initialized
+2026-05-31 14:59:15,030 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-31 14:59:16,365 | update_profile_info | INFO | Email entered successfully
+2026-05-31 14:59:18,365 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-31 14:59:28,861 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-31 14:59:29,096 | update_profile_info | INFO | Password entered successfully
+2026-05-31 14:59:31,096 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-31 15:00:05,212 | update_profile_info | INFO | Navigating to profile page
+2026-05-31 15:00:08,745 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-31 15:00:13,893 | update_profile_info | INFO | Headline updated
+2026-05-31 15:00:13,893 | update_profile_info | INFO | Updating About section
+2026-05-31 15:00:22,407 | update_profile_info | INFO | About updated
+2026-05-31 15:00:22,407 | update_profile_info | INFO | Adding skill: Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.
+2026-05-31 15:00:52,711 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad5ad]
+	chromedriver!(No symbol) [0x7ff7d1507822]
+	chromedriver!(No symbol) [0x7ff7d1507b2c]
+	chromedriver!(No symbol) [0x7ff7d1557d17]
+	chromedriver!(No symbol) [0x7ff7d155486f]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 15:00:57,163 | update_profile_info | INFO | clicked me button successfully
+2026-05-31 15:00:59,292 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-31 15:02:29,512 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-31 15:02:31,227 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-31 15:02:35,312 | update_profile_info | INFO | Driver initialized
+2026-05-31 15:02:35,312 | update_profile_info | INFO | Sign-in page initialized
+2026-05-31 15:02:37,314 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-31 15:02:38,729 | update_profile_info | INFO | Email entered successfully
+2026-05-31 15:02:40,730 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-31 15:02:51,141 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-31 15:02:51,457 | update_profile_info | INFO | Password entered successfully
+2026-05-31 15:02:53,458 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-31 15:03:24,896 | update_profile_info | INFO | Navigating to profile page
+2026-05-31 15:03:27,934 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-31 15:03:33,663 | update_profile_info | INFO | Headline updated
+2026-05-31 15:03:33,663 | update_profile_info | INFO | Updating About section
+2026-05-31 15:03:45,084 | update_profile_info | INFO | About updated
+2026-05-31 15:03:45,084 | update_profile_info | INFO | Adding skill: Automation Testing
+2026-05-31 15:04:03,521 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad5ad]
+	chromedriver!(No symbol) [0x7ff7d1507822]
+	chromedriver!(No symbol) [0x7ff7d1507b2c]
+	chromedriver!(No symbol) [0x7ff7d1557d17]
+	chromedriver!(No symbol) [0x7ff7d155486f]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 15:04:07,967 | update_profile_info | INFO | clicked me button successfully
+2026-05-31 15:04:10,034 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-31 15:04:27,209 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-31 15:04:28,369 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-31 15:04:32,645 | update_profile_info | INFO | Driver initialized
+2026-05-31 15:04:32,645 | update_profile_info | INFO | Sign-in page initialized
+2026-05-31 15:04:34,646 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-31 15:04:36,013 | update_profile_info | INFO | Email entered successfully
+2026-05-31 15:04:38,014 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-31 15:04:48,522 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-31 15:04:48,761 | update_profile_info | INFO | Password entered successfully
+2026-05-31 15:04:50,762 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-31 15:05:20,089 | update_profile_info | INFO | Navigating to profile page
+2026-05-31 15:05:23,267 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-31 15:05:28,461 | update_profile_info | INFO | Headline updated
+2026-05-31 15:05:28,461 | update_profile_info | INFO | Updating About section
+2026-05-31 15:05:39,578 | update_profile_info | INFO | About updated
+2026-05-31 15:05:39,578 | update_profile_info | INFO | Adding skill: Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.
+2026-05-31 15:05:58,432 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad5ad]
+	chromedriver!(No symbol) [0x7ff7d1507822]
+	chromedriver!(No symbol) [0x7ff7d1507b2c]
+	chromedriver!(No symbol) [0x7ff7d1557d17]
+	chromedriver!(No symbol) [0x7ff7d155486f]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 15:06:03,027 | update_profile_info | INFO | clicked me button successfully
+2026-05-31 15:06:05,095 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-31 15:06:34,611 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-31 15:06:36,230 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing: Selenium WebDriver, TestNG, JUnit, Cucumber (BDD), Maven, Playwright (Web), Espresso (Android), XCUITest (iOS), Appium, Selenium, Cypress.', 'Manual Testing: Test Case Design, Bug Identification, Bug Reporting, Mobile Manual Testing(IOS&Android)', 'Programming: Java , Python, SQL', 'API Testing: Pytest, Postman, REST API', 'AI & Prompt Engineering: ChatGPT, Claude, GitHub Copilot, AI Agents for Test Generation & Debugging.', 'CI/CD & Tools: JIRA, Git, GitHub, IntelliJ IDEA, Pipeline Optimization, Tableau, PowerBI.'], education entries: 2, projects: 2
+2026-05-31 15:06:45,621 | update_profile_info | INFO | Driver initialized
+2026-05-31 15:06:45,622 | update_profile_info | INFO | Sign-in page initialized
+2026-05-31 15:06:47,622 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-31 15:07:17,750 | update_profile_info | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad5ad]
+	chromedriver!(No symbol) [0x7ff7d1507822]
+	chromedriver!(No symbol) [0x7ff7d1507b2c]
+	chromedriver!(No symbol) [0x7ff7d1557d17]
+	chromedriver!(No symbol) [0x7ff7d155486f]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 15:07:17,750 | update_profile_info | DEBUG | Trying alternative locator for email input
+2026-05-31 15:07:55,548 | update_profile_info | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad5ad]
+	chromedriver!(No symbol) [0x7ff7d1507822]
+	chromedriver!(No symbol) [0x7ff7d1507b2c]
+	chromedriver!(No symbol) [0x7ff7d1557d17]
+	chromedriver!(No symbol) [0x7ff7d155486f]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 15:08:04,347 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-31 15:08:05,662 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-31 15:08:10,228 | update_profile_info | INFO | Driver initialized
+2026-05-31 15:08:10,229 | update_profile_info | INFO | Sign-in page initialized
+2026-05-31 15:08:12,230 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-31 15:08:13,561 | update_profile_info | INFO | Email entered successfully
+2026-05-31 15:08:15,561 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-31 15:08:25,922 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-31 15:08:26,152 | update_profile_info | INFO | Password entered successfully
+2026-05-31 15:08:28,153 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-31 15:09:01,935 | update_profile_info | INFO | Navigating to profile page
+2026-05-31 15:09:05,356 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-31 15:09:10,826 | update_profile_info | INFO | Headline updated
+2026-05-31 15:09:10,826 | update_profile_info | INFO | Updating About section
+2026-05-31 15:09:22,472 | update_profile_info | INFO | About updated
+2026-05-31 15:09:22,472 | update_profile_info | INFO | Adding skill: Automation Testing
+2026-05-31 15:10:11,703 | update_profile_info | ERROR | update_profile_info failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad5ad]
+	chromedriver!(No symbol) [0x7ff7d1507822]
+	chromedriver!(No symbol) [0x7ff7d1507b2c]
+	chromedriver!(No symbol) [0x7ff7d1557d17]
+	chromedriver!(No symbol) [0x7ff7d155486f]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-31 15:10:16,500 | update_profile_info | INFO | clicked me button successfully
+2026-05-31 15:10:18,675 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-31 15:10:39,544 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-31 15:10:40,708 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-31 15:10:45,536 | update_profile_info | INFO | Driver initialized
+2026-05-31 15:10:45,536 | update_profile_info | INFO | Sign-in page initialized
+2026-05-31 15:10:47,537 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-31 15:10:48,799 | update_profile_info | INFO | Email entered successfully
+2026-05-31 15:10:50,800 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-31 15:11:01,139 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-31 15:11:01,284 | update_profile_info | INFO | Password entered successfully
+2026-05-31 15:11:03,284 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-31 15:11:33,042 | update_profile_info | INFO | Navigating to profile page
+2026-05-31 15:11:35,762 | update_profile_info | INFO | Updating headline: QA Automation Engineer
+2026-05-31 15:11:40,774 | update_profile_info | INFO | Headline updated
+2026-05-31 15:11:40,774 | update_profile_info | INFO | Updating About section
+2026-05-31 15:11:52,650 | update_profile_info | INFO | About updated
+2026-05-31 15:11:52,650 | update_profile_info | INFO | Adding skill: Automation Testing
+2026-05-31 15:13:42,345 | update_profile_info | ERROR | update_profile_info failed: Could not open Add profile section menu
+2026-05-31 15:13:47,170 | update_profile_info | INFO | clicked me button successfully
+2026-05-31 15:13:49,273 | update_profile_info | INFO | clicked sign out button successfully
+2026-05-31 15:13:57,896 | update_profile_info | INFO | Parsing user.md with Groq LLM...
+2026-05-31 15:13:59,004 | update_profile_info | INFO | Parsed profile — title: 'QA Automation Engineer', skills: ['Automation Testing', 'Manual Testing', 'Programming', 'API Testing', 'AI & Prompt Engineering', 'CI/CD & Tools'], education entries: 2, projects: 2
+2026-05-31 15:14:04,212 | update_profile_info | INFO | Driver initialized
+2026-05-31 15:14:04,212 | update_profile_info | INFO | Sign-in page initialized
+2026-05-31 15:14:06,213 | update_profile_info | DEBUG | inside enter_email, trying primary locator
+2026-05-31 15:14:07,592 | update_profile_info | INFO | Email entered successfully
+2026-05-31 15:14:09,593 | update_profile_info | DEBUG | inside enter_password, trying primary locator
+2026-05-31 15:14:19,886 | update_profile_info | DEBUG | Trying alternative locator for password input
+2026-05-31 15:14:20,116 | update_profile_info | INFO | Password entered successfully
+2026-05-31 15:14:22,116 | update_profile_info | DEBUG | inside click_submit_button
+2026-05-31 15:14:38,124 | update_profile_info | INFO | Navigating to profile page
+2026-05-31 15:14:38,126 | update_profile_info | ERROR | update_profile_info failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.179)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d1747de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7d1747e50+14900]
+	chromedriver!(No symbol) [0x7ff7d14ad5ad]
+	chromedriver!(No symbol) [0x7ff7d14840f2]
+	chromedriver!(No symbol) [0x7ff7d1536f56]
+	chromedriver!(No symbol) [0x7ff7d1554172]
+	chromedriver!(No symbol) [0x7ff7d14f9df8]
+	chromedriver!(No symbol) [0x7ff7d14face3]
+	chromedriver!GetHandleVerifier [0x7ff7d1a5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7d1a57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7d1a7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7d1766045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7d176ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7d1751bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7d1751d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7d17360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+

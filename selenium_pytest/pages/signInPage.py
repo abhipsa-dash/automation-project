@@ -22,26 +22,26 @@ class signInPage:
         # self.submit_button_alt = (By.XPATH, "//span[text()='Sign in'][1]")
     
  
-    def enter_email(self, email="babidash252@gmail.com"):
+    def enter_email(self, logger, email="babidash252@gmail.com"):
 
         try:
-            print("inside enter_email, trying primary locator")
+            logger.debug("inside enter_email, trying primary locator")
             email_input = robust_click(
             self,
             self.email_or_phone_number_box
         )
         except Exception as e:
-            print(f"enter_email: failed to click primary locator: {e}")
+            logger.debug(f"enter_email: failed to click primary locator: {e}")
             # try alternative locator
             try:
-                print("Trying alternative locator for email input")
+                logger.debug("Trying alternative locator for email input")
                 get_url().refresh()  # Refresh the page to reset any potential issues
                 email_input = robust_click(
                     self,
                     self.email_or_phone_number_box_alt
                 )
             except Exception as e2:
-                print(f"enter_email: failed to click alternative locator: {e2}")
+                logger.error(f"enter_email: failed to click alternative locator: {e2}")
                 raise
 
         email_input.clear()
@@ -49,22 +49,22 @@ class signInPage:
         time.sleep(1)
 
         email_input.send_keys(email)
-        print("Email entered successfully")
+        logger.info("Email entered successfully")
        
  
-    def enter_password(self, password="Babi@252dash"):
+    def enter_password(self, logger, password="Babi@252dash"):
         wait = WebDriverWait(self.driver, 10)
         try:
-            print("inside enter_password, trying primary locator")
+            logger.debug("inside enter_password, trying primary locator")
             password_input = wait.until(EC.element_to_be_clickable(self.password_box))
         except:    
-            print("Trying alternative locator for password input")        
+            logger.debug("Trying alternative locator for password input")        
             password_input = wait.until(EC.element_to_be_clickable(self.password_box_alt))
             
         password_input.click()
         password_input.clear()
         password_input.send_keys(password)
-        print("Password entered successfully")
+        logger.info("Password entered successfully")
 
     def dismiss_post_login_popup(self):
         try:
@@ -93,7 +93,7 @@ class signInPage:
                 continue
         return False
 
-    def click_submit_button(self):
+    def click_submit_button(self, logger):
         # wait = WebDriverWait(self.driver, 10)
         # try:
         #     print("inside click_submit_button, trying primary locator")
@@ -102,9 +102,8 @@ class signInPage:
         #     print("Trying alternative locator for click_submit_button")        
         #     submit_btn = wait.until(EC.element_to_be_clickable(self.submit_button_alt))
         wait = WebDriverWait(self.driver,10)
-        print("inside click_submit_button")
+        logger.debug("inside click_submit_button")
         submit_btn = wait.until(EC.element_to_be_clickable(self.submit_button))
         submit_btn.click()
-        print("successfully signed in")
         time.sleep(2)
         self.dismiss_post_login_popup()

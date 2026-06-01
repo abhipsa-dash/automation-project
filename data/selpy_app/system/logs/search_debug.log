@@ -1,0 +1,48 @@
+2026-05-30 22:04:48,727 | search_debug | INFO | Driver initialized
+2026-05-30 22:04:48,727 | search_debug | INFO | Sign-in page initialized
+2026-05-30 22:04:50,728 | search_debug | DEBUG | inside enter_email, trying primary locator
+2026-05-30 22:05:20,887 | search_debug | DEBUG | enter_email: failed to click primary locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
+2026-05-30 22:05:20,932 | search_debug | DEBUG | Trying alternative locator for email input
+2026-05-30 22:06:02,250 | search_debug | ERROR | enter_email: failed to click alternative locator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7ddcd7e50+14900]
+	chromedriver!(No symbol) [0x7ff7dda3d5ad]
+	chromedriver!(No symbol) [0x7ff7dda97822]
+	chromedriver!(No symbol) [0x7ff7dda97b2c]
+	chromedriver!(No symbol) [0x7ff7ddae7d17]
+	chromedriver!(No symbol) [0x7ff7ddae486f]
+	chromedriver!(No symbol) [0x7ff7dda89df8]
+	chromedriver!(No symbol) [0x7ff7dda8ace3]
+	chromedriver!GetHandleVerifier [0x7ff7ddfecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7ddfe7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7de00bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7ddcf6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7ddcfecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7ddce1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7ddcc60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff892c9e957+17]
+	ntdll!RtlUserThreadStart [0x7ff89370427c+2c]
+
